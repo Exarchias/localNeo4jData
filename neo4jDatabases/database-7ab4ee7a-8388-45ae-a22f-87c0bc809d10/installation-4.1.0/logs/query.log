@@ -1,0 +1,114 @@
+2020-08-05 03:26:48.011+0000 INFO  Query started: id:1 - 4275 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n) RETURN count(n); - {} - runtime=null - {}
+2020-08-05 03:26:51.327+0000 INFO  id:1 - 7595 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n) RETURN count(n); - {} - runtime=pipelined - {}
+2020-08-05 03:26:51.571+0000 INFO  Query started: id:2 - 122 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	<none> - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=null - {}
+2020-08-05 03:26:51.785+0000 INFO  id:2 - 328 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	neo4j - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=pipelined - {}
+2020-08-05 03:26:51.991+0000 INFO  Query started: id:3 - 158 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	<none> - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:26:52.791+0000 INFO  id:3 - 951 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:26:52.882+0000 INFO  Query started: id:4 - 55 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	<none> - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:26:53.060+0000 INFO  id:4 - 235 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:26:53.136+0000 INFO  Query started: id:5 - 42 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	<none> - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=null - {}
+2020-08-05 03:26:53.302+0000 INFO  id:5 - 208 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=pipelined - {}
+2020-08-05 03:26:53.495+0000 INFO  Query started: id:6 - 170 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=null - {}
+2020-08-05 03:26:53.817+0000 INFO  id:6 - 492 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58634	server/127.0.0.1:7687>	neo4j - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=pipelined - {}
+2020-08-05 03:31:20.681+0000 INFO  Query started: id:7 - 1 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n) RETURN count(n); - {} - runtime=null - {}
+2020-08-05 03:31:20.695+0000 INFO  id:7 - 15 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n) RETURN count(n); - {} - runtime=pipelined - {}
+2020-08-05 03:31:20.718+0000 INFO  Query started: id:8 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	<none> - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=null - {}
+2020-08-05 03:31:20.730+0000 INFO  id:8 - 13 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	neo4j - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=pipelined - {}
+2020-08-05 03:31:20.754+0000 INFO  Query started: id:9 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	<none> - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:31:20.765+0000 INFO  id:9 - 11 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:31:20.795+0000 INFO  Query started: id:10 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	<none> - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:31:20.805+0000 INFO  id:10 - 9 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:31:20.841+0000 INFO  Query started: id:11 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	<none> - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=null - {}
+2020-08-05 03:31:20.854+0000 INFO  id:11 - 16 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=pipelined - {}
+2020-08-05 03:31:20.878+0000 INFO  Query started: id:12 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=null - {}
+2020-08-05 03:31:20.901+0000 INFO  id:12 - 23 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58726	server/127.0.0.1:7687>	neo4j - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=pipelined - {}
+2020-08-05 03:36:09.259+0000 INFO  Query started: id:1 - 3925 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n) RETURN count(n); - {} - runtime=null - {}
+2020-08-05 03:36:15.401+0000 INFO  id:1 - 10070 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n) RETURN count(n); - {} - runtime=pipelined - {}
+2020-08-05 03:36:15.806+0000 INFO  Query started: id:2 - 178 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	<none> - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=null - {}
+2020-08-05 03:36:16.048+0000 INFO  id:2 - 421 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	neo4j - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=pipelined - {}
+2020-08-05 03:36:16.388+0000 INFO  Query started: id:3 - 316 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	<none> - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:36:17.275+0000 INFO  id:3 - 1203 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:36:17.340+0000 INFO  Query started: id:4 - 40 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	<none> - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:36:17.474+0000 INFO  id:4 - 174 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:36:17.533+0000 INFO  Query started: id:5 - 32 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	<none> - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=null - {}
+2020-08-05 03:36:17.674+0000 INFO  id:5 - 173 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=pipelined - {}
+2020-08-05 03:36:17.939+0000 INFO  Query started: id:6 - 238 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=null - {}
+2020-08-05 03:36:18.630+0000 INFO  id:6 - 930 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58859	server/127.0.0.1:7687>	neo4j - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=pipelined - {}
+2020-08-05 03:36:22.059+0000 INFO  Query started: id:7 - 61 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58869	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-05 03:36:22.583+0000 INFO  id:7 - 586 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58869	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-05 03:36:24.706+0000 INFO  Query started: id:8 - 1 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58888	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-05 03:36:24.727+0000 INFO  Query started: id:9 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58890	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-05 03:36:24.733+0000 INFO  id:8 - 27 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58888	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-05 03:36:24.742+0000 INFO  id:9 - 15 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58890	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-05 03:36:24.828+0000 INFO  Query started: id:12 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58892	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-05 03:36:24.843+0000 INFO  Query started: id:10 - 73 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58888	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.components() YIELD name, versions, edition - {} - runtime=null - {}
+2020-08-05 03:36:24.860+0000 INFO  id:12 - 31 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58892	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-05 03:36:24.880+0000 INFO  Query started: id:13 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58894	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-05 03:36:24.915+0000 INFO  Query started: id:14 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-05 03:36:24.919+0000 INFO  id:13 - 39 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58894	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-05 03:36:24.932+0000 INFO  id:14 - 17 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-05 03:36:25.031+0000 INFO  id:10 - 261 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58888	server/127.0.0.1:7687>	neo4j - neo4j - CALL dbms.components() YIELD name, versions, edition - {} - runtime=pipelined - {}
+2020-08-05 03:36:25.136+0000 INFO  Query started: id:15 - 121 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58892	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.procedures YIELD name - {} - runtime=null - {}
+2020-08-05 03:36:25.256+0000 INFO  Query started: id:16 - 142 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {}
+2020-08-05 03:36:25.402+0000 INFO  Query started: id:17 - 245 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58894	server/127.0.0.1:7687>	<none> - neo4j - SHOW DATABASES - {} - runtime=null - {}
+2020-08-05 03:36:25.631+0000 INFO  id:15 - 606 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58892	server/127.0.0.1:7687>	system - neo4j - CALL dbms.procedures YIELD name - {} - runtime=system - {}
+2020-08-05 03:36:25.633+0000 INFO  id:16 - 463 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {}
+2020-08-05 03:36:25.875+0000 INFO  Query started: id:11 - 1077 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58890	server/127.0.0.1:7687>	<none> - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+UNION ALL
+CALL dbms.functions() YIELD name, signature, description
+RETURN {name:'functions', data: collect({name: name, signature: signature, description: description})} AS result
+UNION ALL
+CALL dbms.procedures() YIELD name, signature, description
+RETURN {name:'procedures', data:collect({name: name, signature: signature, description: description})} AS result
+UNION ALL
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {}
+2020-08-05 03:36:26.601+0000 INFO  Query started: id:18 - 46 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.clientConfig() - {} - runtime=null - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-05 03:36:26.754+0000 INFO  id:18 - 179 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	system - neo4j - CALL dbms.clientConfig() - {} - runtime=system - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-05 03:36:27.656+0000 INFO  id:17 - 2498 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58894	server/127.0.0.1:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {}
+2020-08-05 03:36:28.276+0000 INFO  id:11 - 3478 ms: 278940 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58890	server/127.0.0.1:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+UNION ALL
+CALL dbms.functions() YIELD name, signature, description
+RETURN {name:'functions', data: collect({name: name, signature: signature, description: description})} AS result
+UNION ALL
+CALL dbms.procedures() YIELD name, signature, description
+RETURN {name:'procedures', data:collect({name: name, signature: signature, description: description})} AS result
+UNION ALL
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {}
+2020-08-05 03:36:28.957+0000 INFO  Query started: id:19 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58894	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.clientConfig() - {} - runtime=null - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-05 03:36:28.964+0000 INFO  Query started: id:20 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-05 03:36:28.964+0000 INFO  id:19 - 19 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58894	server/127.0.0.1:7687>	system - neo4j - CALL dbms.clientConfig() - {} - runtime=system - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-05 03:36:28.980+0000 INFO  id:20 - 12 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58896	server/127.0.0.1:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-05 03:36:33.758+0000 INFO  Query started: id:21 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n) RETURN count(n); - {} - runtime=null - {}
+2020-08-05 03:36:33.764+0000 INFO  id:21 - 6 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n) RETURN count(n); - {} - runtime=pipelined - {}
+2020-08-05 03:36:33.782+0000 INFO  Query started: id:22 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	<none> - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=null - {}
+2020-08-05 03:36:33.791+0000 INFO  id:22 - 9 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	neo4j - neo4j - MATCH ()-->() RETURN count(*); - {} - runtime=pipelined - {}
+2020-08-05 03:36:33.808+0000 INFO  Query started: id:23 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	<none> - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:36:33.816+0000 INFO  id:23 - 8 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.labels() YIELD label RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:36:33.832+0000 INFO  Query started: id:24 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	<none> - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=null - {}
+2020-08-05 03:36:33.840+0000 INFO  id:24 - 8 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.relationshipTypes() YIELD relationshipType RETURN count(*) - {} - runtime=pipelined - {}
+2020-08-05 03:36:33.856+0000 INFO  Query started: id:25 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	<none> - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=null - {}
+2020-08-05 03:36:33.864+0000 INFO  id:25 - 8 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.propertyKeys() YIELD propertyKey RETURN COUNT(*) - {} - runtime=pipelined - {}
+2020-08-05 03:36:33.880+0000 INFO  Query started: id:26 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=null - {}
+2020-08-05 03:36:33.899+0000 INFO  id:26 - 19 ms: 64 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:58909	server/127.0.0.1:7687>	neo4j - neo4j - CALL dbms.queryJmx("java.lang:type=Runtime") YIELD attributes RETURN timestamp() - attributes.StartTime.value - {} - runtime=pipelined - {}
