@@ -1,0 +1,26 @@
+2020-07-13 01:20:51.597+0000 INFO  Initializing system graph model for component 'security-users' with version -1 and status UNINITIALIZED
+2020-07-13 01:20:51.609+0000 INFO  Setting up initial user from `auth.ini` file: neo4j
+2020-07-13 01:20:51.611+0000 INFO  Creating new user 'neo4j' (passwordChangeRequired=false, suspended=false)
+2020-07-13 01:20:51.762+0000 INFO  Setting version for 'security-users' to 2
+2020-07-13 01:20:51.804+0000 INFO  After initialization of system graph model component 'security-users' have version 2 and status CURRENT
+2020-07-13 01:20:51.837+0000 INFO  Performing postInitialization step for component 'security-users' with version 2 and status CURRENT
+2020-07-13 01:20:52.445+0000 INFO  Initializing system graph model for component 'security-privileges' with version -1 and status UNINITIALIZED
+2020-07-13 01:20:52.450+0000 INFO  Initializing security model with 6 roles
+2020-07-13 01:20:53.056+0000 INFO  Setting version for 'security-privileges' to 4
+2020-07-13 01:20:53.147+0000 INFO  Assigned admin role to user 'neo4j'.
+2020-07-13 01:20:53.149+0000 INFO  After initialization of system graph model component 'security-privileges' have version 4 and status CURRENT
+2020-07-13 01:20:59.304+0000 INFO  [neo4j]: logged in
+2020-07-13 01:20:59.792+0000 INFO  [neo4j]: logged in
+2020-07-13 01:21:09.241+0000 INFO  [neo4j]: logged in
+2020-07-13 01:23:21.860+0000 INFO  [neo4j]: logged in
+2020-07-13 01:23:24.069+0000 INFO  [neo4j]: logged in
+2020-07-13 01:23:24.088+0000 INFO  [neo4j]: logged in
+2020-07-13 01:23:24.178+0000 INFO  [neo4j]: logged in
+2020-07-13 01:23:24.181+0000 INFO  [neo4j]: logged in
+2020-07-13 01:24:13.905+0000 INFO  [neo4j]: logged in
+2020-07-13 01:24:15.633+0000 INFO  [neo4j]: logged in
+2020-07-13 01:24:15.634+0000 INFO  [neo4j]: logged in
+2020-07-13 01:24:15.643+0000 INFO  [neo4j]: logged in
+2020-07-13 01:24:15.676+0000 INFO  [neo4j]: logged in
+2020-07-13 01:24:15.726+0000 INFO  [neo4j]: logged in
+2020-07-13 02:08:23.092+0000 INFO  [neo4j]: logged in

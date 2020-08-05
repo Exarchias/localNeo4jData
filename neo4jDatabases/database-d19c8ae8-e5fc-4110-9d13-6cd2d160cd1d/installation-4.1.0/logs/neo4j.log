@@ -1,0 +1,6 @@
+2020-07-13 01:20:20.560+0000 INFO  Starting...
+2020-07-13 01:20:33.585+0000 INFO  ======== Neo4j 4.1.0 ========
+2020-07-13 01:20:53.253+0000 INFO  Sending metrics to CSV file at C:\Users\Exarchias\.Neo4jDesktop\neo4jDatabases\database-d19c8ae8-e5fc-4110-9d13-6cd2d160cd1d\installation-4.1.0\metrics
+2020-07-13 01:20:53.360+0000 INFO  Bolt enabled on localhost:7687.
+2020-07-13 01:20:57.478+0000 INFO  Remote interface available at http://localhost:7474/
+2020-07-13 01:20:57.482+0000 INFO  Started.
