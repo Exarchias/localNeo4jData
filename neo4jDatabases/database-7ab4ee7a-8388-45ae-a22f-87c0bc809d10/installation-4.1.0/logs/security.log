@@ -36,3 +36,14 @@
 2020-08-06 01:27:47.924+0000 INFO  [neo4j]: logged in
 2020-08-06 01:27:47.950+0000 INFO  [neo4j]: logged in
 2020-08-06 02:17:46.304+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:05.137+0000 INFO  Performing postInitialization step for component 'security-users' with version 2 and status CURRENT
+2020-08-07 01:12:05.152+0000 INFO  Updating the initial password in component 'security-users'  
+2020-08-07 01:12:05.176+0000 INFO  Updating initial user password from `auth.ini` file: neo4j
+2020-08-07 01:12:15.534+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:15.959+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:41.047+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:45.688+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:45.781+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:45.876+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:45.910+0000 INFO  [neo4j]: logged in
+2020-08-07 01:12:46.082+0000 INFO  [neo4j]: logged in
