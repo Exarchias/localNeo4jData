@@ -10,3 +10,13 @@
 2020-08-05 03:35:55.823+0000 INFO  Bolt enabled on localhost:7687.
 2020-08-05 03:36:01.920+0000 INFO  Remote interface available at http://localhost:7474/
 2020-08-05 03:36:01.922+0000 INFO  Started.
+2020-08-06 01:26:45.720+0000 INFO  Starting...
+2020-08-06 01:27:05.860+0000 INFO  ======== Neo4j 4.1.0 ========
+2020-08-06 01:27:19.683+0000 INFO  Sending metrics to CSV file at C:\fak\github\localNeo4jData\neo4jDatabases\database-7ab4ee7a-8388-45ae-a22f-87c0bc809d10\installation-4.1.0\metrics
+2020-08-06 01:27:19.892+0000 INFO  Bolt enabled on localhost:7687.
+2020-08-06 01:27:25.635+0000 INFO  Remote interface available at http://localhost:7474/
+2020-08-06 01:27:25.637+0000 INFO  Started.
+2020-08-06 01:53:48.506+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: This clause is not allowed as a last clause and hence does not declare return columns, reference d3ed51cf-23ef-43b2-ad81-020799bf80d1.
+2020-08-06 01:53:50.948+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: This clause is not allowed as a last clause and hence does not declare return columns, reference 2ffbaff1-6a20-4f7e-ad81-1d51f01697e2.
+2020-08-06 01:55:26.348+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: This clause is not allowed as a last clause and hence does not declare return columns, reference 194c34cb-5bf3-4d29-973c-320f50f89630.
+2020-08-06 01:55:43.611+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: This clause is not allowed as a last clause and hence does not declare return columns, reference 9e2c09c3-af54-4e77-b9ae-8d6aa09a57d5.
