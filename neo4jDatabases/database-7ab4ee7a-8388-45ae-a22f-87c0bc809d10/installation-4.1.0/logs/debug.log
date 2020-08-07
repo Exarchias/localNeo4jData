@@ -3486,3 +3486,17 @@ RETURN {name: "relationships", data: count(*)} AS result
 2020-08-07 01:49:40.544+0000 INFO [o.n.c.i.ExecutionEngine] [neo4j] Discarded stale query from the query cache after 1993 seconds. Reason: CardinalityByLabelsAndRelationshipType(None,None,None) changed from 1.0 to 4.0, which is a divergence of 0.75 which is greater than threshold 0.496081774547724. Query: MATCH (a)-[r]->(b)
   WHERE id(a) IN $existingNodeIds AND id(b) IN $newNodeIds
 RETURN r AS r
+2020-08-07 01:54:48.927+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=111, gcTime=0, gcCount=0}
+2020-08-07 01:57:28.987+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=119, gcTime=0, gcCount=0}
+2020-08-07 01:58:45.833+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=111, gcTime=0, gcCount=0}
+2020-08-07 02:00:25.390+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=118, gcTime=0, gcCount=0}
+2020-08-07 02:03:48.584+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 30 checkpoint started...
+2020-08-07 02:03:50.547+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 30 checkpoint completed in 1s 962ms
+2020-08-07 02:03:50.548+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] [neo4j] No log version pruned. The strategy used was '7 days'. Last checkpoint was made in log version 0.
+2020-08-07 02:07:19.314+0000 INFO [o.n.c.i.ExecutionEngine] [neo4j] Discarded stale query from the query cache after 1892 seconds. Reason: CardinalityByLabelsAndRelationshipType(None,None,None) changed from 1.0 to 8.0, which is a divergence of 0.875 which is greater than threshold 0.5048196751654732. Query: MATCH path = (a)--(o)
+  WHERE id(a) = 2 AND not id(o) IN []
+RETURN path AS path, size((a)--()) AS c
+  ORDER BY id(o) ASCENDING
+  LIMIT 100
+2020-08-07 02:13:57.558+0000 INFO [o.n.c.i.ExecutionEngine] [neo4j] Discarded stale query from the query cache after 3673 seconds. Reason: CardinalityByLabelsAndRelationshipType(None,None,None) changed from 1.0 to 8.0, which is a divergence of 0.875 which is greater than threshold 0.38553273440752467. Query: MATCH ()-->()
+RETURN count(*) AS `count(*)`
