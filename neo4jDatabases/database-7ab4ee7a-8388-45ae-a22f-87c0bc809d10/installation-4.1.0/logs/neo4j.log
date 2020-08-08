@@ -26,3 +26,9 @@
 2020-08-07 01:12:05.521+0000 INFO  Bolt enabled on localhost:7687.
 2020-08-07 01:12:12.878+0000 INFO  Remote interface available at http://localhost:7474/
 2020-08-07 01:12:12.881+0000 INFO  Started.
+2020-08-07 16:38:46.145+0000 INFO  Starting...
+2020-08-07 16:39:04.628+0000 INFO  ======== Neo4j 4.1.0 ========
+2020-08-07 16:39:18.899+0000 INFO  Sending metrics to CSV file at C:\fak\github\localNeo4jData\neo4jDatabases\database-7ab4ee7a-8388-45ae-a22f-87c0bc809d10\installation-4.1.0\metrics
+2020-08-07 16:39:19.081+0000 INFO  Bolt enabled on localhost:7687.
+2020-08-07 16:39:24.849+0000 INFO  Remote interface available at http://localhost:7474/
+2020-08-07 16:39:24.851+0000 INFO  Started.
