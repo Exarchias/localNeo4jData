@@ -743,3 +743,6 @@ MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [0 updates], conc
 2020-08-15 18:22:35.789+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] [neo4j] Index creation finished for index [Index( id=4, name='index_24a4e551', type='GENERAL BTREE', schema=(:Department {name}), indexProvider='native-btree-1.0' )].
 2020-08-15 18:22:35.813+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] [neo4j] TIME/PHASE Final: WRITE[totalTime=21ms], MERGE[totalTime=0ns], BUILD[totalTime=0ns], APPLY_EXTERNAL[totalTime=52ms], FLIP[totalTime=76ms]
 2020-08-15 18:22:46.326+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=146, gcTime=0, gcCount=0}
+2020-08-15 18:26:34.380+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=119, gcTime=0, gcCount=0}
+2020-08-15 18:26:34.686+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=110, gcTime=0, gcCount=0}
+2020-08-15 18:26:34.920+0000 WARN [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=222, gcTime=0, gcCount=0}

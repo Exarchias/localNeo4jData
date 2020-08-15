@@ -914,3 +914,291 @@ MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
 2020-08-15 18:24:10.280+0000 INFO  id:147 - 11 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:52710	server/127.0.0.1:7687>	system - neo4j - CALL dbms.clientConfig() - {} - runtime=system - {type: 'system', app: 'neo4j-browser_v4.1.0'}
 2020-08-15 18:24:10.286+0000 INFO  Query started: id:148 - 0 ms: 0 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:52702	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {type: 'system', app: 'neo4j-browser_v4.1.0'}
 2020-08-15 18:24:10.296+0000 INFO  id:148 - 10 ms: -1 B - bolt-session	bolt	neo4j-javascript/0.0.0-dev		client/127.0.0.1:52702	server/127.0.0.1:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {type: 'system', app: 'neo4j-browser_v4.1.0'}
+2020-08-15 18:26:29.811+0000 INFO  Query started: id:149 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:29.821+0000 INFO  id:149 - 9 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:30.993+0000 INFO  Query started: id:150 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - CALL dbms.components() - {} - runtime=null - {}
+2020-08-15 18:26:31.013+0000 INFO  id:150 - 19 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - CALL dbms.components() - {} - runtime=system - {}
+2020-08-15 18:26:31.046+0000 INFO  Query started: id:151 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - CALL bloom.checkAuthorization() - {} - runtime=null - {}
+2020-08-15 18:26:31.050+0000 ERROR id:151 - 4 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - CALL bloom.checkAuthorization() - {} - runtime=null - {} - There is no procedure with the name `bloom.checkAuthorization` registered for this database instance. Please ensure you've spelled the procedure name correctly and that the procedure is properly deployed.
+2020-08-15 18:26:31.116+0000 INFO  Query started: id:152 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call dbms.listConfig('dbms.security.auth_enabled') - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.127+0000 INFO  id:152 - 10 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - call dbms.listConfig('dbms.security.auth_enabled') - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.143+0000 INFO  Query started: id:153 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.152+0000 INFO  id:153 - 8 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - call dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.169+0000 INFO  Query started: id:154 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - show all roles - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.195+0000 INFO  id:154 - 26 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - show all roles - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.219+0000 INFO  Query started: id:155 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - SHOW USER `neo4j` PRIVILEGES - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.256+0000 INFO  id:155 - 37 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - SHOW USER `neo4j` PRIVILEGES - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.402+0000 INFO  Query started: id:156 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.405+0000 INFO  Query started: id:161 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52845	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.412+0000 INFO  Query started: id:160 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52843	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.416+0000 INFO  id:161 - 24 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52845	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.448+0000 INFO  Query started: id:159 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - CALL bloom.checkLicenseCompliance() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.458+0000 INFO  Query started: id:158 - 1 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52841	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.463+0000 INFO  Query started: id:157 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52839	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.482+0000 ERROR id:159 - 107 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - CALL bloom.checkLicenseCompliance() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'} - There is no procedure with the name `bloom.checkLicenseCompliance` registered for this database instance. Please ensure you've spelled the procedure name correctly and that the procedure is properly deployed.
+2020-08-15 18:26:31.484+0000 INFO  Query started: id:162 - 1 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52849	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.489+0000 INFO  id:158 - 140 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52841	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.496+0000 INFO  id:160 - 55 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52843	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.552+0000 INFO  id:157 - 171 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52839	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.585+0000 INFO  id:156 - 96 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.586+0000 INFO  Query started: id:168 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52857	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.586+0000 INFO  Query started: id:167 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52853	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.594+0000 INFO  Query started: id:166 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52855	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.651+0000 INFO  Query started: id:165 - 1 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52851	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.652+0000 INFO  Query started: id:164 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call dbms.procedures() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.653+0000 INFO  id:162 - 102 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52849	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.656+0000 INFO  Query started: id:163 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52847	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.666+0000 INFO  Query started: id:170 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.671+0000 INFO  id:163 - 193 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52847	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.678+0000 INFO  Query started: id:169 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.681+0000 INFO  id:170 - 31 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.684+0000 INFO  id:168 - 50 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52857	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.689+0000 INFO  id:166 - 64 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52855	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.699+0000 INFO  id:167 - 38 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52853	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.787+0000 INFO  id:169 - 45 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.789+0000 INFO  id:165 - 108 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52851	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.814+0000 INFO  Query started: id:171 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52863	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:31.815+0000 INFO  id:164 - 164 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - call dbms.procedures() - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.827+0000 INFO  id:171 - 162 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52863	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:31.880+0000 INFO  Query started: id:172 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - SHOW databases - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.891+0000 INFO  id:172 - 10 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - SHOW databases - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.915+0000 INFO  Query started: id:173 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - CALL db.info() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.920+0000 INFO  Query started: id:174 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.info() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.930+0000 INFO  id:174 - 10 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	system - neo4j - CALL db.info() - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.968+0000 INFO  id:173 - 44 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.info() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:31.999+0000 INFO  Query started: id:175 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52865	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:32.007+0000 INFO  id:175 - 8 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52865	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:32.027+0000 INFO  Query started: id:176 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.035+0000 INFO  id:176 - 8 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	system - neo4j - call dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.146+0000 INFO  Query started: id:177 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - 
+  CALL db.labels() yield label as name with name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'label' as type
+  UNION ALL
+  CALL db.relationshipTypes() yield relationshipType as name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'relationshipType' as type
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.147+0000 INFO  Query started: id:178 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.schema.visualization() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.175+0000 INFO  Query started: id:179 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - call db.indexes() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.209+0000 INFO  id:178 - 36 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.schema.visualization() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.241+0000 INFO  id:179 - 64 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	neo4j - neo4j - call db.indexes() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.270+0000 INFO  id:177 - 124 ms: 680 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - 
+  CALL db.labels() yield label as name with name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'label' as type
+  UNION ALL
+  CALL db.relationshipTypes() yield relationshipType as name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'relationshipType' as type
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:32.631+0000 INFO  Query started: id:180 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52868	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:32.638+0000 INFO  id:180 - 7 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52868	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:33.308+0000 INFO  Query started: id:181 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52870	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:33.318+0000 INFO  id:181 - 9 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52870	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:33.660+0000 INFO  Query started: id:182 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	<none> - neo4j - call db.labels() yield label
+  where not label =~ '^_Bloom_.+_$'
+  return label - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:33.694+0000 INFO  id:182 - 34 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	neo4j - neo4j - call db.labels() yield label
+  where not label =~ '^_Bloom_.+_$'
+  return label - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.005+0000 INFO  Query started: id:183 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.stats.retrieve('GRAPH COUNTS') - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.040+0000 INFO  id:183 - 33 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.stats.retrieve('GRAPH COUNTS') - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.095+0000 INFO  Query started: id:184 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52872	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:34.103+0000 INFO  id:184 - 8 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52872	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:34.147+0000 INFO  Query started: id:185 - 15 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - call db.schema.relTypeProperties() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.195+0000 INFO  Query started: id:188 - 14 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call db.schema.nodeTypeProperties() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.239+0000 INFO  Query started: id:189 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	<none> - neo4j - CALL db.relationshipTypes() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.267+0000 INFO  id:189 - 28 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.relationshipTypes() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.346+0000 INFO  Query started: id:187 - 179 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52855	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n:`Painting`) RETURN {label:'Painting', size: count(*)} as info UNION ALL MATCH (n:`Artist`) RETURN {label:'Artist', size: count(*)} as info UNION ALL MATCH (n:`Classification`) RETURN {label:'Classification', size: count(*)} as info UNION ALL MATCH (n:`Department`) RETURN {label:'Department', size: count(*)} as info - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.363+0000 INFO  Query started: id:186 - 216 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52843	server/127.0.0.1:7687>	<none> - neo4j - 
+  MATCH ()-[r:`HAS_CLASSIFICATION`]->()
+  RETURN {type: 'HAS_CLASSIFICATION', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`HAS_ARTIST`]->()
+  RETURN {type: 'HAS_ARTIST', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`IN_DEPARTMENT`]->()
+  RETURN {type: 'IN_DEPARTMENT', count: count(r)} as info
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:34.839+0000 INFO  id:185 - 706 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	neo4j - neo4j - call db.schema.relTypeProperties() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.024+0000 INFO  Query started: id:190 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n) RETURN count(n) as count - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.111+0000 INFO  id:186 - 874 ms: 576 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52843	server/127.0.0.1:7687>	neo4j - neo4j - 
+  MATCH ()-[r:`HAS_CLASSIFICATION`]->()
+  RETURN {type: 'HAS_CLASSIFICATION', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`HAS_ARTIST`]->()
+  RETURN {type: 'HAS_ARTIST', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`IN_DEPARTMENT`]->()
+  RETURN {type: 'IN_DEPARTMENT', count: count(r)} as info
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.129+0000 INFO  id:188 - 950 ms: 512 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - call db.schema.nodeTypeProperties() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.149+0000 INFO  id:190 - 144 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n) RETURN count(n) as count - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.182+0000 INFO  Query started: id:191 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - MATCH ()-[r]->() RETURN count(r) as count - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.206+0000 INFO  id:187 - 980 ms: 624 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52855	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n:`Painting`) RETURN {label:'Painting', size: count(*)} as info UNION ALL MATCH (n:`Artist`) RETURN {label:'Artist', size: count(*)} as info UNION ALL MATCH (n:`Classification`) RETURN {label:'Classification', size: count(*)} as info UNION ALL MATCH (n:`Department`) RETURN {label:'Department', size: count(*)} as info - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:35.237+0000 INFO  id:191 - 54 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - MATCH ()-[r]->() RETURN count(r) as count - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:36.011+0000 INFO  Query started: id:192 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52874	server/127.0.0.1:7687>	<none> - neo4j - CALL db.indexes() - {} - runtime=null - {}
+2020-08-15 18:26:36.022+0000 INFO  id:192 - 8 ms: -1 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52874	server/127.0.0.1:7687>	system - neo4j - CALL db.indexes() - {} - runtime=system - {}
+2020-08-15 18:26:37.194+0000 INFO  Query started: id:193 - 1 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:37.230+0000 INFO  id:193 - 37 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.548+0000 INFO  Query started: id:194 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - 
+  CALL db.labels() yield label as name with name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'label' as type
+  UNION ALL
+  CALL db.relationshipTypes() yield relationshipType as name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'relationshipType' as type
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.549+0000 INFO  Query started: id:195 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.schema.visualization() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.556+0000 INFO  id:195 - 9 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.schema.visualization() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.564+0000 INFO  id:194 - 16 ms: 680 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - 
+  CALL db.labels() yield label as name with name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'label' as type
+  UNION ALL
+  CALL db.relationshipTypes() yield relationshipType as name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'relationshipType' as type
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.597+0000 INFO  Query started: id:196 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - call db.schema.relTypeProperties() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.600+0000 INFO  Query started: id:197 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call db.schema.nodeTypeProperties() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.610+0000 INFO  Query started: id:198 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n:`Painting`) RETURN {label:'Painting', size: count(*)} as info UNION ALL MATCH (n:`Artist`) RETURN {label:'Artist', size: count(*)} as info UNION ALL MATCH (n:`Classification`) RETURN {label:'Classification', size: count(*)} as info UNION ALL MATCH (n:`Department`) RETURN {label:'Department', size: count(*)} as info - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.626+0000 INFO  Query started: id:199 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - 
+  MATCH ()-[r:`HAS_CLASSIFICATION`]->()
+  RETURN {type: 'HAS_CLASSIFICATION', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`HAS_ARTIST`]->()
+  RETURN {type: 'HAS_ARTIST', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`IN_DEPARTMENT`]->()
+  RETURN {type: 'IN_DEPARTMENT', count: count(r)} as info
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.627+0000 INFO  id:198 - 6 ms: 624 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n:`Painting`) RETURN {label:'Painting', size: count(*)} as info UNION ALL MATCH (n:`Artist`) RETURN {label:'Artist', size: count(*)} as info UNION ALL MATCH (n:`Classification`) RETURN {label:'Classification', size: count(*)} as info UNION ALL MATCH (n:`Department`) RETURN {label:'Department', size: count(*)} as info - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.726+0000 INFO  id:199 - 36 ms: 576 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	neo4j - neo4j - 
+  MATCH ()-[r:`HAS_CLASSIFICATION`]->()
+  RETURN {type: 'HAS_CLASSIFICATION', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`HAS_ARTIST`]->()
+  RETURN {type: 'HAS_ARTIST', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`IN_DEPARTMENT`]->()
+  RETURN {type: 'IN_DEPARTMENT', count: count(r)} as info
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.786+0000 INFO  id:196 - 188 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - call db.schema.relTypeProperties() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:40.864+0000 INFO  id:197 - 263 ms: 512 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - call db.schema.nodeTypeProperties() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.049+0000 INFO  Query started: id:203 - 34 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - 
+  match (n:`Artist`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.050+0000 INFO  Query started: id:200 - 124 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - 
+  match (n:`Classification`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.092+0000 INFO  Query started: id:202 - 62 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	<none> - neo4j - 
+  match (n:`Department`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.093+0000 INFO  Query started: id:201 - 162 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - 
+  match (n:`Painting`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.793+0000 INFO  id:200 - 826 ms: 256 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	neo4j - neo4j - 
+  match (n:`Classification`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.794+0000 INFO  id:202 - 790 ms: 256 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	neo4j - neo4j - 
+  match (n:`Department`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.838+0000 INFO  id:203 - 859 ms: 248 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - 
+  match (n:`Artist`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:41.872+0000 INFO  id:201 - 924 ms: 248 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - 
+  match (n:`Painting`)
+  with n limit 10000
+  unwind labels(n) as label
+  return  distinct label
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:42.127+0000 INFO  Query started: id:204 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call db.indexes() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:42.134+0000 INFO  id:204 - 6 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - call db.indexes() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:42.398+0000 INFO  Query started: id:205 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:42.417+0000 INFO  id:205 - 5 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.131+0000 INFO  Query started: id:206 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.schema.visualization() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.132+0000 INFO  Query started: id:207 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - 
+  CALL db.labels() yield label as name with name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'label' as type
+  UNION ALL
+  CALL db.relationshipTypes() yield relationshipType as name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'relationshipType' as type
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.141+0000 INFO  id:206 - 6 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.schema.visualization() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.142+0000 INFO  id:207 - 7 ms: 680 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - 
+  CALL db.labels() yield label as name with name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'label' as type
+  UNION ALL
+  CALL db.relationshipTypes() yield relationshipType as name
+  where not name =~ '^_Bloom_.+_$'
+  return name, 'relationshipType' as type
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.147+0000 INFO  Query started: id:208 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - call db.indexes() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.153+0000 INFO  id:208 - 6 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	neo4j - neo4j - call db.indexes() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.852+0000 INFO  Query started: id:209 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - call db.schema.nodeTypeProperties() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.853+0000 INFO  Query started: id:210 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	<none> - neo4j - call db.schema.relTypeProperties() - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.905+0000 INFO  id:210 - 47 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52859	server/127.0.0.1:7687>	neo4j - neo4j - call db.schema.relTypeProperties() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.908+0000 INFO  Query started: id:211 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52868	server/127.0.0.1:7687>	<none> - neo4j - 
+  MATCH ()-[r:`HAS_CLASSIFICATION`]->()
+  RETURN {type: 'HAS_CLASSIFICATION', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`HAS_ARTIST`]->()
+  RETURN {type: 'HAS_ARTIST', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`IN_DEPARTMENT`]->()
+  RETURN {type: 'IN_DEPARTMENT', count: count(r)} as info
+   - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.941+0000 INFO  Query started: id:212 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52843	server/127.0.0.1:7687>	<none> - neo4j - MATCH (n:`Painting`) RETURN {label:'Painting', size: count(*)} as info UNION ALL MATCH (n:`Artist`) RETURN {label:'Artist', size: count(*)} as info UNION ALL MATCH (n:`Classification`) RETURN {label:'Classification', size: count(*)} as info UNION ALL MATCH (n:`Department`) RETURN {label:'Department', size: count(*)} as info - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.941+0000 INFO  id:211 - 6 ms: 576 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52868	server/127.0.0.1:7687>	neo4j - neo4j - 
+  MATCH ()-[r:`HAS_CLASSIFICATION`]->()
+  RETURN {type: 'HAS_CLASSIFICATION', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`HAS_ARTIST`]->()
+  RETURN {type: 'HAS_ARTIST', count: count(r)} as info
+  UNION ALL
+  MATCH ()-[r:`IN_DEPARTMENT`]->()
+  RETURN {type: 'IN_DEPARTMENT', count: count(r)} as info
+   - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.957+0000 INFO  id:212 - 47 ms: 624 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52843	server/127.0.0.1:7687>	neo4j - neo4j - MATCH (n:`Painting`) RETURN {label:'Painting', size: count(*)} as info UNION ALL MATCH (n:`Artist`) RETURN {label:'Artist', size: count(*)} as info UNION ALL MATCH (n:`Classification`) RETURN {label:'Classification', size: count(*)} as info UNION ALL MATCH (n:`Department`) RETURN {label:'Department', size: count(*)} as info - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.992+0000 INFO  id:209 - 112 ms: 512 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - call db.schema.nodeTypeProperties() - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:47.993+0000 INFO  Query started: id:214 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:48.008+0000 INFO  Query started: id:213 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	<none> - neo4j - CALL db.stats.retrieve('GRAPH COUNTS') - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:48.009+0000 INFO  id:214 - 7 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52861	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:48.017+0000 INFO  id:213 - 29 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52837	server/127.0.0.1:7687>	neo4j - neo4j - CALL db.stats.retrieve('GRAPH COUNTS') - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:52.188+0000 INFO  Query started: id:215 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:52.192+0000 INFO  id:215 - 4 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:57.188+0000 INFO  Query started: id:216 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:26:57.192+0000 INFO  id:216 - 3 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:27:02.191+0000 INFO  Query started: id:217 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:27:02.197+0000 INFO  id:217 - 5 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:27:07.187+0000 INFO  Query started: id:218 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:27:07.190+0000 INFO  id:218 - 3 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:27:12.190+0000 INFO  Query started: id:219 - 0 ms: 0 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	<none> - neo4j - RETURN TRUE - {} - runtime=null - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
+2020-08-15 18:27:12.195+0000 INFO  id:219 - 4 ms: 64 B - bolt-session	bolt	neo4j-bloom/v1.3.3		client/127.0.0.1:52835	server/127.0.0.1:7687>	neo4j - neo4j - RETURN TRUE - {} - runtime=pipelined - {app: 'neo4j-bloom_v1.3.3', type: 'system'}
